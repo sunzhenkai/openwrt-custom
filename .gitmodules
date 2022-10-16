@@ -1,6 +1,6 @@
 [submodule "lede"]
 	path = lede
 	url = https://github.com/coolsnowwolf/lede.git
-[submodule "theme/luce-theme-argon"]
-	path = theme/luce-theme-argon
+[submodule "theme/luci-theme-argon"]
+	path = theme/luci-theme-argon
 	url = https://github.com/jerrykuku/luci-theme-argon.git
