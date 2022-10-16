@@ -2,8 +2,8 @@
 git submodule update --init --recursive
 
 # config theme
-cd lede/package/lean
 cp -r theme/luci-theme-argon lede/package/lean
+cd lede/package/lean
 
 # build lede
 cd lede || exit 1
@@ -12,5 +12,5 @@ cd lede || exit 1
 # config
 cp config/lede-config lede/.config
 # compile
-make download -j8
-make V=s -j1
+make download -j$(nproc)
+make V=s -j$(nproc)
