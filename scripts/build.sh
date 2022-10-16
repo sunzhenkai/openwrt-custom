@@ -2,8 +2,7 @@
 git submodule update --init --recursive
 
 # config theme
-cp -r theme/luci-theme-argon lede/package/lean
-cd lede/package/lean
+cp -r theme/luci-theme-argon lede/package/lean/
 
 # build lede
 cd lede || exit 1
