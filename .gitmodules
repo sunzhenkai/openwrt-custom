@@ -4,3 +4,6 @@
 [submodule "theme/luci-theme-argon"]
 	path = theme/luci-theme-argon
 	url = https://github.com/jerrykuku/luci-theme-argon.git
+[submodule "plugins/luci-app-ssr-plus"]
+	path = plugins/luci-app-ssr-plus
+	url = https://github.com/maxlicheng/luci-app-ssr-plus.git
