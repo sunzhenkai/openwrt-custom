@@ -19,6 +19,8 @@ cd lede || exit 1
 ./scripts/feeds update helloworld
 ./scripts/feeds install -a -f -p helloworld
 
+make menuconfig
+
 # compile
 make download -j$(nproc)
 make V=s -j$(nproc)
