@@ -9,4 +9,4 @@
 	url = https://github.com/maxlicheng/luci-app-ssr-plus.git
 [submodule "plugins/luci-app-openclash"]
 	path = plugins/luci-app-openclash
-	url = https://github.com/vernesong/OpenClash.git
+	url = https://github.com/sunzhenkai/luci-app-openclash.git
