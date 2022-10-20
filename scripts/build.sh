@@ -15,5 +15,5 @@ cd lede || exit 1
 ./scripts/feeds install -a
 
 # compile
-make download -j8
-make V=s -j8
+make download -j$(nproc)
+make V=s -j$(nproc)
