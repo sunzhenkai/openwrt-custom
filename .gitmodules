@@ -4,6 +4,9 @@
 [submodule "theme/luci-theme-argon"]
 	path = theme/luci-theme-argon
 	url = https://github.com/jerrykuku/luci-theme-argon.git
+[submodule "plugins/luci-app-openclash"]
+	path = plugins/luci-app-openclash
+	url = https://github.com/sunzhenkai/luci-app-openclash.git
 [submodule "plugins/luci-app-ssr-plus"]
 	path = plugins/luci-app-ssr-plus
 	url = https://github.com/maxlicheng/luci-app-ssr-plus.git
