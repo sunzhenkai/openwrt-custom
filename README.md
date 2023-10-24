@@ -10,6 +10,16 @@ make login
 cd /data && make resolve && make build
 ```
 
+# OpenWrt Configuration
+- Load 
+    - load config, keep default
+- Configure
+    - Libraries
+        - select what you want
+- Save
+- Exit
+
+
 # From
 
 https://github.com/coolsnowwolf/lede
