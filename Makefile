@@ -15,3 +15,6 @@ container:
 clear:
 	@docker stop lede-builder
 	@docker rm lede-builder
+
+login:
+	@docker exec -it lede-builder sh
